@@ -29,6 +29,7 @@ RSYNC_COMMAND = [
         "--verbose", 
         "--out-format=%t %f %b", 
         "--exclude=__pycache__",
+        '--exclude=PortableGit',
         "--log-file=" + LOG_FILE,
         SRC, 
         DEST
