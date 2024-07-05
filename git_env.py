@@ -36,7 +36,8 @@ ROOT_DIR_GIT_CFR = posixpath.join('/c/Users/', NAME_USER)
 list_git_files = [".ssh", ".bash_profile", 
                   ".bashrc", ".gitconfig", 
                   ".bash_history", "git_scripts", 
-                  ".bash_aliases"]
+                  ".bash_aliases", ".git_aliases",
+                  ".ssh_aliases"]
 
 src = ''
 out = None
