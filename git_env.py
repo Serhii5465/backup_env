@@ -35,7 +35,7 @@ NAME_USER = os.getlogin()
 ROOT_DIR_GIT_CFR = posixpath.join('/c/Users/', NAME_USER)
 list_git_files = [".ssh", ".bash_profile", 
                   ".bashrc", ".gitconfig", 
-                  ".bash_history", "git_scripts", 
+                  ".bash_history", "scripts", 
                   ".bash_aliases", ".git_aliases",
                   ".ssh_aliases"]
 
