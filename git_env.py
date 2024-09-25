@@ -32,7 +32,7 @@ RSYNC_COMMAND = [
 ]
 
 NAME_USER = os.getlogin()
-ROOT_DIR_GIT_CFR = '/d/git_home/'
+ROOT_DIR_GIT_CFR = '/d/portable/git_home/'
 list_git_files = [".ssh", 
                   ".bash_profile", 
                   ".bashrc", 
